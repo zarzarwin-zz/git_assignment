@@ -196,3 +196,85 @@ These are some of the most common Git commands to get you started. Remember to r
 4. Summarize the steps you took to sync your repository with the original repository in Task 4.
 
 
+---
+
+**Assignment Title:** Git Remote and Collaboration
+
+**Objective:** Gain practical experience with remote repositories and collaboration using Git.
+
+**Instructions:**
+
+**Task 1: Forking a Repository**
+
+1. Choose a public GitHub repository that you're interested in (e.g., an open-source project).
+
+2. Fork the selected repository to create your own copy on GitHub.
+
+3. Provide the URL to your forked repository on GitHub.
+
+**Task 2: Clone and Set Up**
+
+1. Clone your forked repository to your local machine using the `git clone` command.
+
+2. Configure your local repository to track the original repository as a remote:
+
+   ```bash
+   git remote add upstream [original_repository_url]
+   ```
+
+   Replace `[original_repository_url]` with the URL of the original repository.
+
+**Task 3: Fetching Updates**
+
+1. In your local repository, fetch the latest changes from the original repository using:
+
+   ```bash
+   git fetch upstream
+   ```
+
+2. Create a new branch in your local repository named "update-branch":
+
+   ```bash
+   git checkout -b update-branch
+   ```
+
+3. Merge the changes from the original repository's main branch into your "update-branch":
+
+   ```bash
+   git merge upstream/main
+   ```
+
+**Task 4: Collaborative Work**
+
+1. Make a meaningful code contribution or improvement to the project (e.g., fix a bug, add a feature).
+
+2. Commit your changes with a descriptive commit message.
+
+3. Push your "update-branch" to your forked repository on GitHub:
+
+   ```bash
+   git push origin update-branch
+   ```
+
+4. Create a Pull Request (PR) from your "update-branch" to the original repository's main branch on GitHub.
+
+5. Provide the URL to your PR on GitHub.
+
+**Task 5: Review and Merge**
+
+1. Review at least one open Pull Request in the original repository (submitted by another contributor). Leave a constructive comment or review.
+
+2. If your PR receives comments or review feedback, make necessary updates and respond to comments.
+
+3. After receiving approval or addressing feedback, have your PR merged into the original repository.
+
+**Submission 3:**
+
+1. Provide the URL to your forked repository on GitHub.
+
+2. Include the URL to your Pull Request in Task 4.
+
+3. Describe the changes you made in your code contribution (Task 4) and your experience with the review process (Task 5).
+
+
+
