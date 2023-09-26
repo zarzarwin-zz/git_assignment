@@ -206,14 +206,14 @@ These are some of the most common Git commands to get you started. Remember to r
 
 **Task 1: Forking a Repository**
 
-1. Choose a public GitHub repository that you're interested in (e.g., an open-source project).
+1. Choose a public GitHub repository | Assignment directory: https://github.com/aeiwz/git_assignment.git.
 
 2. Fork the selected repository to create your own copy on GitHub.
 
 3. Provide the URL to your forked repository on GitHub.
 
 **Task 2: Clone and Set Up**
-Assignment directory: https://github.com/aeiwz/git_assignment.git
+
 1. Clone your forked repository to your local machine using the `git clone` command.
 
 2. Configure your local repository to track the original repository as a remote:
