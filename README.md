@@ -124,7 +124,7 @@ These are some of the most common Git commands to get you started. Remember to r
 
 2. Write a brief summary of your experience with Git, mentioning any challenges you faced and how you overcame them.
 
-3. Submit the zip file and summary through your preferred submission method (e.g., email, online learning platform).
+3. Submit the zip file and summary
 
 
 ---
@@ -195,5 +195,4 @@ These are some of the most common Git commands to get you started. Remember to r
 
 4. Summarize the steps you took to sync your repository with the original repository in Task 4.
 
-5. Submit this information through your preferred submission method (e.g., email, online learning platform).
 
